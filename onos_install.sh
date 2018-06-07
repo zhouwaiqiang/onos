@@ -160,10 +160,9 @@ function start_onos {
 
 cur_path=$(pwd)
 cd $cur_path
-#install_backup
+install_backup
 install_mk
-#install_java
-#download_onos
-#configure_setting
-#set_env
-#install_onos
+install_java
+download_onos
+configure_setting
+install_onos
